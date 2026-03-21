@@ -47,11 +47,11 @@ set nohlsearch                " Don't leave yellow blobs after searching
 " ────────────────────────────────────────────────────────────────
 let mapleader = " "
 
-" Exit Insert Mode fast (VS Code feel)
+" Exit Insert Mode fast 
 inoremap jk <Esc>
 inoremap kj <Esc>
 
-" Save and Quit (Like VS Code)
+" Save and Quit 
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>
 nnoremap <C-q> :q<CR>
